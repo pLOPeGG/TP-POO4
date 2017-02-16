@@ -1,0 +1,3 @@
+Argument -l utilisé mais pas de droits sur le fichier
+
+Retirer les droits en lecture sur localTest avant d'exécuter le test !!!

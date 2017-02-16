@@ -1,0 +1,21 @@
+Manuel d'utilisation de l'Analyseur de log Apache :
+
+NOM :
+	TP4
+
+SYNOPSIS:
+	TP4 [-e] [-t heure] [-l fichier] [-g fichier] fichierLog
+
+DESCRIPTION:
+	TP4 est une application capable de lire un fichier de log d'un serveur Apache et d'effectuer des statistiques sur ces données. Il est nécessaire de lui fournir un chemin d'accès au fichier log que vous souhaitez lire en paramètre.
+
+OPTIONS:
+	-e, permet d'exclure des statistiques toutes les ressources ayant une extension d'image, javascript ou css.
+	
+	-t heure, permet de ne garder que les ressources accédées entre don't l'heure d'accès est comprise dans l'intervalle [heure, heure+1[.
+
+	-l fichier, permet de spécifier le chemin d'accès au fichier qui décrit les URL locales. Ces dernières sont automatiquement raccourcies lorsqu'elles apparaissent dans le fichier Apache. Par défaut, le fichier local est situé dans le répertoire data.
+
+	-g fichier, créer un fichier lisible GraphViz rendant compte graphiquement du contenu du fichier log Apache lu par l'application.
+
+

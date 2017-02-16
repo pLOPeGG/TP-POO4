@@ -1,0 +1,15 @@
+digraph Graphe_Apache {
+node5 [label="http://intranet-if.insa-lyon.fr/temps/4IF17.html"];
+node4 [label="/temps/4IF18.html"];
+node7 [label="/temps/3IF38.html"];
+node1 [label="http://intranet-if.insa-lyon.fr/temps/4IF15.html"];
+node2 [label="/temps/4IF16.html"];
+node8 [label="http://www.google.fr/url"];
+node6 [label="http://intranet-if.insa-lyon.fr/temps/3IF37.html"];
+node3 [label="http://intranet-if.insa-lyon.fr/temps/4IF16.html"];
+node8 -> node7 [label ="1"];
+node1 -> node2 [label ="1"];
+node6 -> node7 [label ="1"];
+node3 -> node4 [label ="1"];
+node5 -> node4 [label ="2"];
+}

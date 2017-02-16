@@ -1,0 +1,1 @@
+../../bin/analog -t 10 -l ../../data/local ./logTest

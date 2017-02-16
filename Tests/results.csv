@@ -1,0 +1,18 @@
+Test ID;Return code validation;Out result;StdErr result;File creation result;Global result
+Test-e;2;1;2;2;1
+TestGraphComplet;2;1;2;1;1
+TestGraphLocal;2;1;2;1;1
+TestGraphNOHit;2;1;2;1;1
+TestGraphSimple;2;1;2;1;1
+Test-lNoArg;2;2;1;2;1
+TestLocalEmpty;2;1;2;2;1
+TestLocalFilled;2;1;2;2;1
+TestLogEmpty;2;1;2;2;1
+TestLogFilled;2;1;2;2;1
+TestNoArg;2;2;1;2;1
+TestNoLocal;2;2;1;2;1
+TestNoLog;2;2;1;2;1
+TestNoRightLocal;2;2;1;2;1
+TestNoRightLog;2;2;1;2;1
+Test-t;2;1;2;2;1
+Test-tNoInt;2;2;1;2;1

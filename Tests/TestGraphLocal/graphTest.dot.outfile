@@ -1,0 +1,14 @@
+digraph Graphe_Apache {
+node7 [label="http://www.google.fr/url"];
+node5 [label="/temps/3IF37.html"];
+node1 [label="/temps/4IF15.html"];
+node3 [label="/temps/4IF18.html"];
+node6 [label="/temps/3IF38.html"];
+node2 [label="/temps/4IF16.html"];
+node4 [label="/temps/4IF17.html"];
+node7 -> node6 [label ="1"];
+node1 -> node2 [label ="1"];
+node2 -> node3 [label ="1"];
+node4 -> node3 [label ="2"];
+node5 -> node6 [label ="1"];
+}
